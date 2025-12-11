@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# Frontend - Proyecto LogicalData
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación corresponde al **frontend** de LogicalData, desarrollada en **React 18** utilizando **TypeScript** y **Vite**. 
 
-Currently, two official plugins are available:
+Para manejar las solicitudes al **backend**, se utiliza **Axios**, una biblioteca que simplifica las peticiones HTTP. La gestión del estado se realiza mediante **Zustand**, lo que permite un manejo eficiente y centralizado del estado de la aplicación. Esta combinación de tecnologías proporciona un frontend robusto, con comunicación eficiente con el backend y una experiencia de usuario fluida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Requisitos previos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Tener la **API de LogicalData** en funcionamiento
+  
+---
 
-## Expanding the ESLint configuration
+## Instalación y ejecución
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. Clonar o descargar el repositorio y abrir una terminal en la carpeta raíz del proyecto.  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2. Configurar la URL base de la API en el archivo `.env` según el puerto en el que esté corriendo tu backend:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```env
+`VITE_API_PORT_BACKEND_LD=8081`
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Solo se debe cambiar el puerto si tu API corre en un puerto diferente. Los servicios de la aplicación toman automáticamente la variable VITE_API_PORT_BACKEND_LD.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. Se debe instalar Vite
+   
+6. Instalar las dependencias con el comando "npm install" desde la terminal abierta anteriormente.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+7. Para iniciar la aplicación usar: npm run dev
+
+# Notas
+
+La aplicación depende de que la API esté corriendo y que la base de datos tenga al menos un usuario registrado.
+
+Revisa el archivo .env para confirmar que el puerto del backend coincide con el de la API.
+
+El frontend utiliza Material UI para los componentes visuales y Vite como build tool para un arranque rápido.
+
+## Sistema:
+
+Al levantar la aplicación se mostrará la vista del Login, se debe ingresar el usuario y la contraseña previamente creada (según indicaciones del readme de proyecto del Api):
+
+<img width="1901" height="822" alt="brave_screenshot_localhost (1)" src="https://github.com/user-attachments/assets/772b62d1-5793-419b-a17d-d422e6ee893c" />
+
+Al ingresar nos redigirá al home donde se pueden visualizar del lado izquierdo tres opciones (Ventas, Facturación y cerrar sesión): 
+
+<img width="1913" height="999" alt="image" src="https://github.com/user-attachments/assets/d39fb6df-088e-48cc-909b-141f57633306" />
+
+
+Si selecciona la opción de Ventas se muestra lo siguiente:
+
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/574a947d-0c35-45c8-aa3c-65f7a2d3a0a5" />
+
+Donde podrá agregar articulos, editar o bien eliminarlos.
+
+Si selecciona la opción de Facturación podrá ver lo siguiente:
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/b348def7-6603-4252-94da-d759a3dddbfa" />
+
+<img width="1916" height="940" alt="image" src="https://github.com/user-attachments/assets/6a6b55b3-f7b3-49e1-86f7-ee227a1edc10" />
+
+Donde se podrá buscar un articulo de venta, poner la cantidad respectiva y agregarlo para seguidamente facturarlo 
+
+Seleccionando la opcion de facturar:
+
+
+
+
+
