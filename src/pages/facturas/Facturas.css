@@ -1,0 +1,219 @@
+.facturas-container {
+    padding: 40px 30px;
+    height: '100%';
+    background-color: hsl(220, 35%, 3%);
+    color: #E3F2FD;
+    padding-Top: 4;
+}
+
+.titulo-pagina{
+    margin-bottom: 15px !important;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.facturas-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn-agregar {
+    padding: 12px;
+    margin-top: 10px !important;;
+    border-radius: 8px !important; ;
+    font-size: 1rem !important; ;
+    color: #ffffff !important; ;
+    font-weight: 400 !important; 
+    transition: background-color 0.25s ease, transform 0.15s ease !important; ;
+    text-transform: none !important; 
+    background: white !important;
+    color: black !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.btn-agregar:hover {
+    background-color: #ffffff !important;
+}
+
+.facturas-table {
+    background-color: hsl(220, 35%, 3%); 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cell-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiDataGrid-root {
+    color: #E3F2FD !important;
+    border-color: #1E3A5F !important;
+}
+
+.MuiDataGrid-columnHeaders {
+    background-color: #0D2538 !important; 
+    color: #E3F2FD !important;
+    font-weight: 600 !important;
+}
+
+.MuiDataGrid-row {
+    background-color: hsl(220, 35%, 3%); 
+}
+
+.MuiDataGrid-row:hover {
+    background-color: hsl(220, 35%, 3%); 
+}
+
+.MuiDataGrid-cell {
+    border-color: hsl(220, 35%, 3%); 
+}
+
+.tabla {
+    background-color: hsl(220, 35%, 3%) !important;
+}
+
+.MuiDataGrid-root {
+  color: #ffffff !important;
+
+}
+
+.css-1jyj9u6-MuiDataGrid-root .MuiDataGrid-filler {
+    background: hsl(220, 35%, 3%) !important; 
+}
+
+.css-1tdeh38 {
+    background: hsl(220, 35%, 3%) !important; 
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: #0C1017 !important;
+}
+
+.css-1yfx013-MuiTablePagination-root:last-child {
+  background-color: #0C1017 !important;
+}
+
+.MuiDataGrid-withBorderColor{
+  border-color: #202630 !important;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.MuiDataGridVariables-3894421541.css-j2rwcw-MuiDataGrid-root{
+  border-color: #202630 !important;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.MuiDataGridVariables-3894421541.css-1jyj9u6-MuiDataGrid-root{
+    border-color: #202630 !important;
+}
+
+.MuiDataGrid-filler.css-xv98vr {
+    --rowBorderColor: #202630 !important;
+}
+
+.MuiDataGrid-row{
+      --rowBorderColor: #202630 !important;
+}
+
+.MuiDataGrid-overlay.css-w16tsr-MuiDataGrid-overlay {
+    background-color: hsl(220, 35%, 3%)  !important;
+}
+
+.codigo {
+    width: 165px !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiSelect-root.css-16qqk1g-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    height: 40px;
+}
+
+.MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root {
+    height: 40px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiSelect-root.css-16qqk1g-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    height: 40px;
+}
+
+.css-j3jqhj-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+    height: 5px;
+    width: 150% !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.css-7zl64f-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 40px;
+}
+
+.articulo{
+    width: 400px !important;
+}
+
+.btn-facturar{
+    padding: 12px;
+    margin-top: 10px !important;;
+    border-radius: 8px !important; ;
+    font-size: 1rem !important; ;
+    font-weight: 400 !important; 
+    transition: background-color 0.25s ease, transform 0.15s ease !important; ;
+    text-transform: none !important; 
+    background: #0a3f70a4!important;
+    color: rgb(255, 255, 255) !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+.btn-agregar:hover {
+    background-color: #c5c5c5 !important;
+}
+
+.css-vy4cj6-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline {
+        border-color: #202630 !important;
+}
+
+
+/* MODAL FACTURA */
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiDialog-paperFullWidth.css-15wnxc5-MuiPaper-root-MuiDialog-paper{
+    width: 800px !important;
+    max-width: 1000px !important;
+}
+
+.css-1v04jon-MuiDialogContent-root {
+    border: none !important
+}
+
+.css-zd0tq6-MuiGrid-root {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+
+.css-17fpwt7-MuiGrid-root {
+    min-width: 0;
+    --rowBorderColor: #202630 !important;
+}
+
+.css-1i9msgm-MuiGrid-root {
+        background: hsl(0, 0%, 100%) !important; 
+        color: #000000 !important;
+}
+
+.MuiTypography-root.MuiTypography-h5.css-127eep8-MuiTypography-root{
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500;
+}
+
+.subtotal-label{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.total-label{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.total-label strong{
+        margin-left: 3px;
+}

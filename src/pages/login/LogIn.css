@@ -1,0 +1,99 @@
+.body2 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #0d1b2a, #000814 70%);
+    font-family: "Poppins", sans-serif;
+}
+
+.card-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;       
+  margin: 0 auto 18px;       
+}
+
+
+.card-header-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 25%;
+  padding: 3px;
+
+}
+
+.card-header-text {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+}
+
+.login-title {
+  text-align: left;
+  color: #ffffff;
+  margin-top: 4px;
+  font-size: 1.4rem !important;
+  margin-bottom: 20px !important;;
+  font-family: "Poppins", sans-serif;
+}
+p.MuiTypography-root.MuiTypography-body1.input-label.css-9ikkap-MuiTypography-root {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.mui-input-dark input {
+    background-color: rgba(2, 0, 22, 0.76);
+    color: #ffffff !important;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.mui-input-dark label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mui-input-dark fieldset {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px !important;;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700 !important; 
+    transition: background-color 0.25s ease, transform 0.15s ease;
+    text-transform: none !important; 
+    font-family: "Poppins", sans-serif !important;
+}
+
+.login-btn:hover{
+  background-color: #d6d6d6 !important; 
+  transform: translateY(-1px);
+}
+
+.login-error {
+    margin-top: 15px;
+}
+
+.input-label{
+  color: #677686;
+  margin-bottom: 2px !important; ;
+}

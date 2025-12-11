@@ -1,0 +1,128 @@
+.ventas-container {
+    font-family: "Roboto", sans-serif;
+    padding: 40px 30px;
+    height: '100%';
+    background-color: hsl(220, 35%, 3%); 
+    color: #E3F2FD; 
+    padding-Top: 4;
+}
+
+
+.ventas-card {
+  background-color: hsl(220, 35%, 3%); ;
+  padding: 30px;
+  width: 480px;
+  border-radius: 12px;
+}
+
+.mui-input-longer .MuiInputBase-root {
+  width: 100%;
+}
+
+.ventas-title {
+  color: white;
+  font-weight: bold;
+}
+
+.css-1gqmilo-MuiDataGrid-columnHeaderTitle {
+    FONT-WEIGHT: BOLD !important;
+}
+
+.ventas-label {
+  font-size: 14px;
+  font-weight: bold !important;
+  color: #d9d9d9;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+.ventas-btn {
+  margin-top: 25px !important;
+  background-color: #fff !important;
+  color: black !important;
+  font-weight: bold !important;
+  text-transform: none !important; 
+}
+
+.ventas-grid {
+  margin-top: 15px;
+}
+
+.agregar-button{
+    padding: 12px;
+    margin-top: 10px !important;;
+    border-radius: 8px !important; ;
+    font-size: 1rem !important; ;
+    color: #ffffff !important; ;
+    font-weight: 700 !important; 
+    transition: background-color 0.25s ease, transform 0.15s ease !important; ;
+    text-transform: none !important; 
+    background: white !important;
+    color: black !important;
+}
+
+.titulo-pagina{
+    margin-bottom: 15px !important;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    text-align: center !important;
+}
+
+
+.tabla {
+    background-color: hsl(220, 35%, 3%) !important;
+}
+
+.MuiDataGrid-root {
+  color: #ffffff !important;
+
+}
+
+.css-1jyj9u6-MuiDataGrid-root .MuiDataGrid-filler {
+    background: hsl(220, 35%, 3%) !important; 
+}
+
+.css-1tdeh38 {
+    background: hsl(220, 35%, 3%) !important; 
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: #0C1017 !important;
+}
+
+.css-1yfx013-MuiTablePagination-root:last-child {
+  background-color: #0C1017 !important;
+}
+
+.MuiDataGrid-withBorderColor{
+  border-color: #202630 !important;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.MuiDataGridVariables-3894421541.css-j2rwcw-MuiDataGrid-root{
+  border-color: #202630 !important;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.MuiDataGridVariables-3894421541.css-1jyj9u6-MuiDataGrid-root{
+    border-color: #202630 !important;
+}
+
+.MuiDataGrid-filler.css-xv98vr {
+    --rowBorderColor: #202630 !important;
+}
+
+.MuiDataGrid-row{
+      --rowBorderColor: #202630 !important;
+}
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-row.css-kw87r8-MuiGrid-root {
+    margin-bottom: 15px !important;
+}
+
+.mui-input-dark input
+ {
+    background-color: rgba(2, 0, 22, 0.76);
+    color: #ffffff !important;
+    padding: 8px;
+    height: 25px;
+    border-radius: 8px !important;
+}
