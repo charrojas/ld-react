@@ -64,7 +64,11 @@ Donde se podrá buscar un articulo de venta, poner la cantidad respectiva y agre
 
 Seleccionando la opcion de facturar:
 
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/f55e91c9-10ec-4a08-8800-6d459e7ccc4a" />
 
+Seleccionando la opción de imprimir:
+
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/34731105-9001-4247-a94f-bc825173978b" />
 
 
 
